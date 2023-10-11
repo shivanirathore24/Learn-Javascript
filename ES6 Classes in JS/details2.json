@@ -1,0 +1,26 @@
+{
+    "person1":{
+      "firstName": "Brian",
+      "lastName": "Lara",
+      "age": 27,
+      "address": {
+        "streetAddress": "22nd Street",
+        "city": "Los Angeles",
+        "postalCode": "10331-3200"
+      },
+      "phoneNumbers": ["412 543-0987", "222 543-9876"]
+    },
+    "person2":{
+      "firstName": "Will",
+      "lastName": "Smith",
+      "age": 30,
+      "address": {
+        "streetAddress": "42nd Street",
+        "city": "New York",
+        "postalCode": "7262-3100"
+      },
+      "phoneNumbers": ["212 666-5678"]
+    }
+}
+
+  
