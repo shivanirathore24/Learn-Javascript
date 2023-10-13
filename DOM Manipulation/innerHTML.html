@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML</title>
+</head>
+<body>
+    
+    <div id="myElement">Initial content</div>
+    <script>
+        var element = document.getElementById("myElement");
+        var htmlContent = element.innerHTML;
+        console.log( htmlContent); // Output: Initial content
+
+        element.innerHTML = "New content";
+        var updatedHtmlContent = element.innerHTML;
+        console.log("Updated HTML content:", updatedHtmlContent);
+        // Output: <strong>New content</strong>
+    </script>
+</body>
+</html>

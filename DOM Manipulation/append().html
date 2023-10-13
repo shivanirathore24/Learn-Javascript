@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>append</title>
+</head>
+<body>
+    <div id="parent">
+        <h3></h3>
+        <p>`append()`, on the other hand, is a more versatile method that allows
+            you to append multiple elements or text to another element. It accepts
+            a variable number of arguments, which can be elements, text strings,
+            or a combination of both.</p>
+
+        <p>In this example, the `append()` method is used to add both the
+            `childElement` and `textNode` to the `parentElement`. It can accept
+            any number of elements or text strings as arguments, allowing you to append
+            multiple elements at once</p>   
+    </div>
+
+    <script>
+        // Creating new elements
+        var parentElement = document.getElementById("parent");
+        var childElement = document.createElement("h3");
+        childElement.textContent = "Shivani Rathore";
+        var textNode = document.createTextNode("Hello, World!");
+        // Appending multiple elements to the parent element
+        parentElement.append(childElement, textNode);
+        //console type> "document" you will see first <div></div> and then "Hello, World!"  are created 
+        //inside div#parent at the end.
+    </script>
+</body>
+</html>

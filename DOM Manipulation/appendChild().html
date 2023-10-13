@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appendChild</title>
+</head>
+<body>
+    <div id="parent">
+        <p>`appendChild()` is a method used to append a single element as a
+            child to another element. It takes an element node as its parameter and
+            adds it as the last child of the specified parent element.</p>
+
+        <p>In this example, the `appendChild()` method is used to add the
+            `childElement` as the last child of the `parentElement`. This
+            method is useful when you want to add a single element to another
+            element.</p>
+    </div>
+
+    <script>
+        // Creating new elements
+        var parentElement = document.getElementById("parent");
+        var childElement = document.createElement('div');
+        // Appending the child element to the parent element
+        parentElement.appendChild(childElement); 
+        //console type> "document" you will see div tag is created inside div#parent at the end.
+    </script>
+</body>
+</html>

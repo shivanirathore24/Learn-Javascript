@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textContent</title>
+</head>
+<body>
+    <div id="myElement">Initial text content</div>
+    <script>
+        var element = document.getElementById("myElement");
+        var textContent = element.textContent;
+        console.log("Initial text content:", textContent);
+        // Output: Initial text content: Initial text content
+        element.textContent = "New text content";
+        var updatedTextContent = element.textContent;
+        console.log("Updated text content:", updatedTextContent);
+        // Output: Updated text content: New text content
+    </script>
+</body>
+</html>
