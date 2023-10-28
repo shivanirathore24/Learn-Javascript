@@ -1,0 +1,24 @@
+My Blogs Part-2
+For the Blog Page, we build in the previous topic modify it to add move up, move down, and delete functionality 
+using an event listener.
+
+Objective:
+The dom structure of the project is as shown in the figure:
+For your convenience, the post part has already been added. Your task is to add event listeners to the buttons. 
+For that -
+Creates a new div element with the class "blog-buttons".
+Creates a new button element with the class "blog-button" and "move-up" and append it to "blog-buttons" div.
+Creates a new button element with the class "blog-button" and "move-down" and append it to "blog-buttons" div.
+Creates a new button element with the class "blog-button" and "delete" and append it to "blog-buttons" div.
+Append the "blog-buttons" to "newbox" element
+Add event listener to "move-up", "move-down" and "delete" button
+The move-up button should be able to move the blog item one step up in the "bloglist".
+The move-down button should be able to move the blog item one step down in the "bloglist".
+The delete button should be able to delete that particular blog from the dom element.
+
+Hint:
+Use onClick event to add the event listener.
+Use insertBefore to append at a specific position.
+
+ExpectedOutput: 
+Check output.png image.

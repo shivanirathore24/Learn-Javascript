@@ -1,0 +1,34 @@
+Seat Booking App
+For the given HTML and CSS for the website implement your Javascript to build a working Seat Booking App.
+
+Requirements:
+Using the given MovieList Array update the dropdown menu and append it to the select element with class "selectMovie".
+Each option created should have an event attached to it .
+The event should do the following operation.
+-update the movie name and movie Price on the elements with the id "movieName"  and "moviePrice" respectively.
+-change the total Price of the element with the id "totalPrice" according to the price of the Movie.
+
+There should be a default  Movie name as "Flash" and movie Price as "7" which should be updated on selecting other options.
+For the Seats
+-You can access all seats using "#seatCont .seat" in the 
+querySelectorAll.
+-There are some seats that are already occupied and have class "seat occupied".
+-Add eventListerner to seats other than the occupied ones.
+
+The eventListerner should add the following functionalities:
+-If the seat is not already selected select the seat and add "selected" to the classList of the seat.
+-If the seat is selected deselect the seat and remove the "selected" from the classList.
+-The price should be updated based on each selection of seat.
+-The seat selected should be added to the element with Id "selectedSeatsHolder" to show how many seats have been selected.
+
+The continue button should have an eventListerner which should be able to perform:
+-If there is no seat selected then the alert the user "oops no seat Selected"
+-If there are some selected seats then alert the user "Yayy! Your Seats has been booked".
+-For all the seats that are selected remove "Selected" from the classList and add "occupied" to it.
+-Update the Price and set it to 0.
+-Update the seatHolderSection to its default value which is a span with textContent "No seat Selected".
+
+For the cancel button add the eventListerner which should be able to perform following operation:
+-should be able to remove the "selected" from the classList of the selected seats.
+-Update the Price and set it to 0.
+-Update the seatHolderSection to its default value which is a span with textContent "No seat Selected".

@@ -1,0 +1,33 @@
+My Blogs Part-1
+You're developing a webpage that displays a list of blog posts. Each blog post should have a title, a date,
+ and some text content.
+
+You want to use JavaScript to create a new blog post element and append it to the blog list, for each blog 
+post in an array of blog data.
+
+Objective:
+Write a function called addBlog that does the following:
+Accepts one parameter, blog, which is an object representing a single blog post. The object have the 
+following properties:
+title: a string representing the title of the blog post.
+date: a string representing the date of the blog post.
+content: a string representing the content of the blog post.
+
+Creates a new div element with the class blog-post.
+Creates a new div element with the class blog-header.
+Creates a new h2 element with the class blog-title and the text of the title property.
+Creates a new p element with the class blog-date and the text of the date property.
+Creates a new p element with the class blog-content and the text of the content property.
+Appends the h2 and p elements as children to the div element with the class blog-header.
+Appends the div element with the class blog-header as a child to the div element with the class blog-post.
+Appends the p element with the class blog-content as a child to the div element with the class blog-post.
+Appends the div element with the class blog-post as a child node to the existing ul element with the class blog-list.
+the visual representation of the structure is as follows: Check input.png image.
+
+Note:
+The function should be called for each blog post in an array of blog data.
+The list of blog posts should be contained within a ul element with the class blog-list.
+
+ExpectedOutput: 
+Check output.png image.
+
